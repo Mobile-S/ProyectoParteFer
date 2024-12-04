@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.example.proyectoandroid.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_register_research"
+        android:name="com.example.proyectoandroid.ui.research.ResearchFragment"
+        android:label="@string/menu_register_research"
+        tools:layout="@layout/fragment_research" />
+
+    <fragment
+        android:id="@+id/nav_register_user"
+        android:name="com.example.proyectoandroid.ui.user.RegisterUserFragment"
+        android:label="@string/menu_register_user"
+        tools:layout="@layout/fragment_register_user" />
+
+    <fragment
+        android:id="@+id/nav_authenticate_user"
+        android:name="com.example.proyectoandroid.ui.user.AuthenticationUserFragment"
+        android:label="@string/menu_authenticate_user"
+        tools:layout="@layout/fragment_authentication_user" />
+
+    <fragment
+        android:id="@+id/nav_logout"
+        android:name="com.example.proyectoandroid.ui.login.LogoutFragment"
+        android:label="@string/menu_logout"
+        tools:layout="@layout/fragment_logout" />
+</navigation>

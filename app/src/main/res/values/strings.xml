@@ -1,0 +1,46 @@
+<resources>
+    <string name="app_name">ProyectoAndroid</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Plataforma Virtual miSitio</string>
+    <string name="nav_header_subtitle">miSitio@gmail.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Configuracion</string>
+
+    <string name="menu_home">Inicio</string>
+    <string name="menu_register_research">Registrar Investigacion</string>
+    <string name="menu_register_user">Registrar Usuario</string>
+    <string name="menu_authenticate_user">Autenticar Usuario</string>
+    <string name="menu_logout">Cerrar Sesion</string>
+
+    <string name="message_home">Bienvenido al Inicio</string>
+    <string name="message_register_research">Registrar Investigacion</string>
+    <string name="message_register_user">Registrar Usuario</string>
+    <string name="message_authenticate_user">Autenticacion de Usuario</string>
+    <string name="message_logout">Sesion Cerrada</string>
+
+    <!-- info from home -->
+    <string name="titlehome">Lista de Investigaciones</string>
+    <string name="bottom_search">Buscar</string>
+
+    <string-array name="academic_degree_options">
+        <item>Seleccione el grado</item>
+        <item>Universidad</item>
+        <item>Colegio</item>
+        <item>Escuela</item>
+    </string-array>
+
+    <string-array name="research_area_options">
+        <item>Seleccione el area</item>
+        <item>Matemáticas</item>
+        <item>Biología</item>
+        <item>Área Social</item>
+        <item>Ética</item>
+        <item>Psicología</item>
+        <item>Física</item>
+        <item>Informática</item>
+        <item>Arte</item>
+    </string-array>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
